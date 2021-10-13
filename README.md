@@ -10,7 +10,7 @@ It's imperative that our programs function correctly, self-correct when they can
 
 ## Task
 
-Your task is to write a program that reads lightning data as a stream from standard input (one lightning strike per line as a JSON object, and matches that data against a source of assets (also in JSON format) to produce an alert.
+Your task is to write a program that reads lightning events data as a stream from standard input (one lightning strike per line as a JSON object, and matches that data against a source of assets (also in JSON format) to produce an alert.
 
 An example 'strike' coming off of the exchange looks like this:
 
@@ -80,7 +80,7 @@ Since code is read more often than it is written, we want to our projects well s
 
 Your program should also contain a README that contains information about the program and includes steps on how to run the program.
 
-The files containing lightning strikes (as single JSON objects) and assets (as an array of JSON objects) can be found in this repo.
+The files containing lightning strikes (as single JSON objects, mimicking lightning events) and assets (as an array of JSON objects) can be found in this repo. These files should be used *as is* as input.
 
 Feel free to use open source libraries where available...
 
