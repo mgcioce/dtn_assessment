@@ -76,7 +76,7 @@ There's a catch though... Once we know lightning is in the area, we don't want t
 
 ## Implementation
 
-Since code is read more often than it is written, we want to our projects well structured and the code easy to read. You should make sure your code lints against whatever standards are in common use by the language you choose (i.e. pep-8 for python)
+Since code is read more often than it is written, we want to our projects well structured and the code easy to read. You should make sure your code lints against whatever standards are in common use by the language you choose (i.e. pep-8 for python, eslint for node.js)
 
 Your program should also contain a README that contains information about the program and includes steps on how to run the program.
 
